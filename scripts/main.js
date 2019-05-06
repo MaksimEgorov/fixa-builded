@@ -1,0 +1,1 @@
+"use strict";$(function(){var n=$("html");$("body");$("[data-scroll-to]").on("click",function(t){t.preventDefault(),scrollToElement("#"+$(this).data("scroll-to"))}),$(".js-navigation").each(function(){var t=$(this).find(".js-mobile-menu-button");t.on("click",function(t){t.preventDefault(),n.toggleClass("html-navigation-mobile-open")})})});
